@@ -3,15 +3,7 @@ from bottle import *
 
 @route("/")
 def index():
-    return  """
-    <h2> Verkefni 5 </h2>
-    <p><a href="/a"> Síðan </a></p>
-    """
-
-@route("/a")
-def index():
     return template("index.tpl")
-# a liður json local
 @post('/data')
 def gogn():
     n = request.forms.get('nafn')
