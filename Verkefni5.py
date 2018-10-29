@@ -9,7 +9,7 @@ def index():
     """
 
 @route("a")
-def a():
+def index():
     return template("index.tpl")
 # a liður json local
 @post('/data')
