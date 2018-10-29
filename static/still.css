@@ -1,0 +1,12 @@
+.btnText {
+	color: rgb(55,125,125);
+}
+
+form{
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 20px; 
+    padding-right: 10em;
+    width: 200px;
+}
+
