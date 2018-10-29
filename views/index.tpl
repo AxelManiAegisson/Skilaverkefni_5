@@ -1,4 +1,4 @@
-% rebase('base.tpl', title='Skráningarform')
+% rebase('Base.tpl', title='Skráningarform')
 
 	<form method="post" action="data" accept-charset="ISO-8859-1">
 		<label>Nafn:
