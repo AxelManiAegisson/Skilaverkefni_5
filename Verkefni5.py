@@ -2,7 +2,7 @@ from bottle import *
 
 @route("/")
 def index():
-    return template("base.tpl")
+    return template("index.tpl")
 
 @post('/data')
 def gogn():
