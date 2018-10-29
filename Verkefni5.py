@@ -2,8 +2,8 @@ from bottle import *
 
 @route("/")
 def index():
-    return template("index.tpl")
-# a liður json local
+    return template("base.tpl")
+
 @post('/data')
 def gogn():
     n = request.forms.get('nafn')
