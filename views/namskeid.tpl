@@ -1,4 +1,4 @@
-% rebase('base.tpl', title="Skráning í vinnustofur")
+% rebase('Base.tpl', title="Skráning í vinnustofur")
 
 		<p>Nafn: <b>{{n}}</b></p>
 		<p>Heimilisfang: <b>{{h}}</b></p>
