@@ -27,11 +27,6 @@ def gogn():
 #                    Nota í flestum kóðum hér fyrir neðann                     #
 ################################################################################
 
-#Ekki Þetta #################################
-@route("/static/<skra>")
-def static(skra):
-    return static_file(skra, root='./static')
-#############################################
 @error(404)
 def villa(error):
     return "<h2 style ='color:red> þessi síða fannst ekki</h2> "
