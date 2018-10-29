@@ -8,7 +8,7 @@ def index():
     <p><a href="/a"> Síðan </a></p>
     """
 
-@route("a")
+@route("/a")
 def index():
     return template("index.tpl")
 # a liður json local
